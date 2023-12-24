@@ -1,56 +1,52 @@
 import styled from 'styled-components'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 export const Container = styled.div`
-    background-color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 35px;
-    padding: 35px 0;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+  padding: 35px 0;
 
-    .rec.rec-arrow{
-        background: #9758a6;
-        color: #FFFFFF;
-        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-        border: none;
-    }
-    .rec.rec-arrow:hover{
-        border: 2px solid #9758a6;
-        background: #FFFFFF;
-        color: #9758a6;
-    }
-    .rec.rec-arrow:disabled{
-        border: none;
-        background: #bebebf;
-        color: #FFFFFF;
-    }
+  .rec.rec-arrow {
+    background: #9758a6;
+    color: #ffffff;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border: none;
+  }
+  .rec.rec-arrow:hover {
+    border: 2px solid #9758a6;
+    background: #ffffff;
+    color: #9758a6;
+  }
+  .rec.rec-arrow:disabled {
+    border: none;
+    background: #bebebf;
+    color: #ffffff;
+  }
 `
 
-export const OfferImg = styled.img`
-
-
-`
+export const OfferImg = styled.img``
 
 export const ContainerItens = styled.div`
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    p{
-        color: #424242;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 120%;
-
-    }
+  p {
+    color: #424242;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 120%;
+  }
 `
 
 export const Image = styled.img`
-    width: 200px;
-    height: 200px;
-    border-radius: 15px;
-    margin-bottom: 16px;
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+  margin-bottom: 16px;
 `
 
 export const Button = styled(Link)`

@@ -7,15 +7,13 @@ import Routes from './routes/routes'
 import GlobalStyles from './styles/globalStyles'
 import AppProvider from './hooks'
 
-
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById('root'))
+root.render(
   <>
     <AppProvider>
       <Routes />,
     </AppProvider>
     <ToastContainer autoClose={2000} theme="colored" />
     <GlobalStyles />
-  </>,
-
-  document.getElementById('root'),
+  </>
 )

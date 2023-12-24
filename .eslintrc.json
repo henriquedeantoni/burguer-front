@@ -29,15 +29,6 @@
       "semi": 0,
   
       // example configuration
-      "newlinesBetween": 0,
-      "groups": 
-      [
-        "external", 
-        "builtin", 
-        "internal", 
-        "sibling", 
-        "parent", 
-        "index"
-      ]
+      "newlinesBetween": 0
     }
   }
